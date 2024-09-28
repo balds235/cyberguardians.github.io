@@ -44,10 +44,9 @@
     }
     
     .hero-image {
-      max-width: 100%;
+      max-width: 100px; /* Adjust the size as needed */
       height: auto;
-      display: block;
-      margin-bottom: 40px;
+      margin-left: 20px; /* Space between the title and the image */
     }
     
     .container {
@@ -86,40 +85,20 @@
 <body>
   <header>
     <h1>CyberGuardians</h1>
-    <nav>
-      <ul>
-        <li><a href="/contact/contact.html">About Us</a></li>
-        <li><a href="/goals/goals.html">Our Goals</a></li>
-        <li><a href="/events/events.html">Events & Activities</a></li>
-      </ul>
-    </nav>
+    <img src="/resources/balls.png" alt="Hero Image" class="hero-image">
   </header>
-
-  <div class="hero-image">
-    <img src="/cyberguardians.github.io/resources/balls.png" alt="Cybersecurity">
-  </div>
-
-  <div class="container" id="about">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="/contact/contact.html">About</a></li>
+      <li><a href="/goals/goals.html">Services</a></li>
+      <li><a href="/contact/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>Welcome to CyberGuardians</h2>
     <h2>About Us</h2>
     <p>Welcome to CyberGuardians, the cybersecurity club at Larchmont Charter School: Lafayette Campus! Our mission is to educate, empower, and protect the digital world through cybersecurity awareness and skills.</p>
   </div>
-
-  <div class="container" id="goals">
-    <h2>Our Goals</h2>
-    <ul>
-      <li>To promote cybersecurity literacy among students</li>
-      <li>To provide hands-on learning experiences in cybersecurity</li>
-      <li>To foster a culture of security-consciousness and responsibility</li>
-    </ul>
-  </div>
-
-  <div class="container" id="events">
-    <h2>Events & Activities</h2>
-    <p>We host various events and activities to keep you engaged and up-to-date with the latest cybersecurity trends. Check our events page for upcoming sessions!</p>
-  </div>
-
-  <footer>
-    <p>&copy; 2024 CyberGuardians. All rights reserved.</p>
-  </footer>
 </body>
 </html>
