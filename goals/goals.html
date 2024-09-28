@@ -10,32 +10,50 @@
             font-family: Arial, sans-serif;
             color: #333;
             text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: #ff6347;
             color: white;
-            padding: 20px;
+            padding: 20px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
         h1 {
             font-size: 2.5em;
+            margin-bottom: 0;
         }
         .content {
-            margin: 20px;
+            flex: 1;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
         .goal {
             background-color: #fffacd;
             border: 2px solid #ff4500;
             border-radius: 10px;
-            padding: 15px;
-            margin: 10px 0;
+            padding: 30px 20px;
+            margin: 20px;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .goal h2 {
+            color: #ff6347;
+            margin-bottom: 15px;
         }
         footer {
             background-color: #ff6347;
             color: white;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 15px 0;
+            position: relative;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -57,8 +75,12 @@
             <p>Our third goal is to continuously learn and improve upon ourselves.</p>
         </div>
     </div>
+    <li><a href="../index.html">Home</a></li>
+        <li><a href="../contact/contact.html">Contact Us</a></li>
+        <li><a href="../event/events.html">Events & Activities</a></li>
+      </ul>
     <footer>
-        <p>&copy; 2024 CyberGuardians. All rights reserved.</p>
+        &copy; 2024 CyberGuardians. All rights reserved.
     </footer>
 </body>
 </html>
